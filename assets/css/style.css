@@ -76,6 +76,7 @@ body {
   padding: 10px;
 }
 .buttonBx {
+  cursor: pointer;
   float: left;
   width: 60px;
   background: #3d587e;
@@ -91,18 +92,18 @@ body {
   margin-top: 50px;
   max-width: 222px;
   margin: 23px 21% 33px;
-  display: flex;
+  /* display: flex; */
 }
 .scoreBx h2 {
-  float: left;
+  /* float: left; */
   color: #7ddbab;
-  font-size: 131px;
+  font-size: 20px;
   font-weight: bold;
   margin: 0;
 }
 .scoreBx p {
-  float: left;
+  /* float: left; */
   font-size: 18px;
-  margin: 99px 0 0 5px;
+  margin: 0;
   color: #447b5f;
 }
