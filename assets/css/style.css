@@ -76,6 +76,7 @@ body {
   padding: 10px;
 }
 .buttonBx {
+  cursor: pointer;
   float: left;
   width: 60px;
   background: #3d587e;
