@@ -4,7 +4,7 @@ $(document).ready(function() {
     console.log("ajax requesting....");
     $.ajax({
       type: "POST",
-      url: "https://pixie.jubi.ai/spellCorrector/",
+      url: "https://pixie.jubi.ai/spellCorrectorBackend/",
       data: JSON.stringify({ text: $("#input-field").val() }),
       contentType: "application/json; charset=utf-8",
       dataType: "json",
