@@ -5,7 +5,7 @@ $(document).ready(function() {
     $.ajax({
       type: "POST",
       url: "https://pixie.jubi.ai/spellCorrectorBackend/",
-      data: JSON.stringify({ text: $("#input-field").val() }),
+      data: JSON.stringify({ word: $("#input-field").val() }),
       contentType: "application/json; charset=utf-8",
       dataType: "json",
       success: function(result) {
