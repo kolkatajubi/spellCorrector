@@ -77,7 +77,7 @@ def testDict():
     output['o/p word'] = cache[word]['answer']
     output['score'] =cache[word]['score']
     output['status'] = 'success'
-    output['totalTime'] = time.clock() - start
+    output['totalTime'] = round(time.clock() - start,3)
     print("OUTPUT : ", output)
     return jsonify(output)
 
