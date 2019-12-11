@@ -1,0 +1,108 @@
+body {
+  background: #fff;
+  padding: 0;
+  margin: 0;
+  float: left;
+  width: 100%;
+  font-family: "Lato", sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+.sec-analysis {
+  float: left;
+  width: 100%;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+}
+.logo {
+  margin: 29px auto 55px;
+  text-align: center;
+  max-width: 150px;
+}
+.logo img {
+  width: 100%;
+}
+
+.aside-form {
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+.formBx {
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  padding: 0;
+  border-radius: 4px;
+  box-shadow: 0 4px 2px 0 #ccc;
+  display: grid;
+  overflow: hidden;
+}
+.title {
+  background: #3d587e;
+  float: left;
+  width: 100%;
+  padding: 13px 0;
+}
+.title p {
+  margin: 0;
+  color: #fff;
+  font-size: 22px;
+}
+
+.formContent {
+  float: left;
+  width: 100%;
+  padding: 28px 0 0;
+}
+.contentInputBx {
+  width: 85%;
+  display: inline-block;
+  padding: 25px 0;
+  margin: 0 auto;
+}
+.inputBx {
+  float: left;
+  width: 84%;
+}
+.inputBx input {
+  float: left;
+  width: 100%;
+  padding: 10px;
+}
+.buttonBx {
+  float: left;
+  width: 60px;
+  background: #3d587e;
+  padding: 10px 10px 11px;
+}
+.buttonBx p {
+  margin: 0;
+  color: #fff;
+}
+
+.scoreBx {
+  width: 100%;
+  margin-top: 50px;
+  max-width: 222px;
+  margin: 23px 21% 33px;
+  display: flex;
+}
+.scoreBx h2 {
+  float: left;
+  color: #7ddbab;
+  font-size: 131px;
+  font-weight: bold;
+  margin: 0;
+}
+.scoreBx p {
+  float: left;
+  font-size: 18px;
+  margin: 99px 0 0 5px;
+  color: #447b5f;
+}
