@@ -96,13 +96,13 @@ body {
 .scoreBx h2 {
   float: left;
   color: #7ddbab;
-  font-size: 131px;
+  font-size: 20px;
   font-weight: bold;
   margin: 0;
 }
 .scoreBx p {
   float: left;
   font-size: 18px;
-  margin: 99px 0 0 5px;
+  margin: 0;
   color: #447b5f;
 }
