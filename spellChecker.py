@@ -5,7 +5,7 @@ from flask import Flask
 from flask import request
 from flask import jsonify
 
-with open('linuxwords.txt', 'r',newline='') as f:
+with open('linuxwords.txt', 'r',newline='',encoding = "utf-8") as f:
     dictionary = f.read().lower().splitlines()
 
 def is_correct(word, dictionary):
