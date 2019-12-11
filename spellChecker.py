@@ -15,7 +15,7 @@ from flask import jsonify
 # In[2]:
 
 
-with open('linuxwords.txt', 'r',newline='') as f:
+with open('linuxwords.txt', 'r') as f:
     dictionary = f.read().lower().splitlines()
 
 
