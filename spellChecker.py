@@ -39,9 +39,9 @@ def correct(word, dictionary):
             score.append(jarowinkler.similarity(word, dict_word))
         detected = dictionary[score.index(max(score))]
         fscore = max(score)
-        if fscore == 0.0:
-            detected = 'No such word found'
-            fscore = 0.0
+        # if fscore == 0.0:
+        #     detected = 'No such word found'
+        #     fscore = 0.0
         return (detected, fscore)
 
 
